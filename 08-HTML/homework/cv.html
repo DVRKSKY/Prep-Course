@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amadeo Flores</title>
+        <style scoped>
+          @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700");
+          * {
+            font-family: 'Montserrat', sans-serif; }
+
+          body {
+            margin: 0px;
+            height: auto; }
+
+          .contenedor {
+            background-color: rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 100%;
+            margin: 0px; }
+            .contenedor .elementos {
+              display: flex;
+              flex-direction: row; }
+              .contenedor .elementos .topBar {
+                position: fixed;
+                justify-content: end;
+                background-color: #ffffff;
+                width: 100%;
+                height: 80px;
+                display: flex;
+                flex-direction: row; }
+                .contenedor .elementos .topBar > h1 {
+                  margin-right: 40px;
+                  color: blue; }
+              .contenedor .elementos .barraLateral {
+                padding-top: 25px;
+                padding-bottom: 30px;
+                background-color: #ffffff;
+                width: 250px;
+                height: 100vh;
+                position: fixed;
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center; }
+                .contenedor .elementos .barraLateral .datosPersonales .avatar {
+                  background-image: url("https://lamenteesmaravillosa.com/wp-content/uploads/2018/09/hombre-creido-pensando-que-sabe.jpg");
+                  background-position: center;
+                  background-size: cover;
+                  width: 150px;
+                  height: 150px;
+                  margin: 0px;
+                  border-radius: 50%;
+                  object-fit: cover; }
+                .contenedor .elementos .barraLateral .datosPersonales .nombre {
+                  margin: 15px 0px 5px 0px;
+                  font-size: 18px;
+                  color: blue; }
+                .contenedor .elementos .barraLateral .datosPersonales .cargo {
+                  font-size: 15px;
+                  margin-bottom: 20px; }
+                .contenedor .elementos .barraLateral .rutas {
+                  display: flex;
+                  flex-direction: column;
+                  margin: 5px;
+                  width: 100%;
+                  height: auto; }
+                  .contenedor .elementos .barraLateral .rutas .elementos {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    height: 50px;
+                    width: 100%;
+                    margin-bottom: 15px; }
+                    .contenedor .elementos .barraLateral .rutas .elementos .icono {
+                      width: 25px;
+                      height: 20px;
+                      margin-right: 15px;
+                      background-color: #f1f1f1;
+                      border-radius: 50%; }
+                    .contenedor .elementos .barraLateral .rutas .elementos .titulo {
+                      color: gray;
+                      margin-top: auto;
+                      margin-bottom: auto;
+                      text-align: left;
+                      width: 100%; }
+                    .contenedor .elementos .barraLateral .rutas .elementos:hover {
+                      cursor: pointer; }
+                      .contenedor .elementos .barraLateral .rutas .elementos:hover .icono {
+                        width: 25px;
+                        border-radius: 10px;
+                        background-color: blue; }
+                      .contenedor .elementos .barraLateral .rutas .elementos:hover .titulo {
+                        color: #000000;
+                        font-weight: bold; }
+                .contenedor .elementos .barraLateral .cta {
+                  background-color: blue;
+                  width: 100%;
+                  height: 80px;
+                  margin-bottom: 20px;
+                  border-radius: 15px;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  align-items: center; }
+                  .contenedor .elementos .barraLateral .cta .contenido {
+                    flex-direction: column; }
+                    .contenedor .elementos .barraLateral .cta .contenido .titulo {
+                      color: #ffffff;
+                      font-size: 20px;
+                      font-weight: bold; }
+                    .contenedor .elementos .barraLateral .cta .contenido .subtitulo {
+                      color: #ffffff;
+                      font-size: 15px; }
+                    .contenedor .elementos .barraLateral .cta .contenido .botonOferta {
+                      cursor: pointer;
+                      margin: 10px 0px 0px 0px;
+                      width: 100px;
+                      height: 25px;
+                      background-color: white; }
+                      .contenedor .elementos .barraLateral .cta .contenido .botonOferta .texto {
+                        text-align: center;
+                        margin: auto;
+                        font-weight: bold;
+                        color: blue; }
+              .contenedor .elementos .content {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                margin: 110px 0px 20px 300px; }
+                .contenedor .elementos .content .datos {
+                  width: 90%;
+                  height: auto;
+                  background-color: white;
+                  padding: 20px;
+                  margin: 15px;
+                  margin-top: 15px;
+                  border-radius: 15px; }
+        </style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="elementos">     
+              <div class="topBar">
+                <h1>Mi curriculum 💼 </h1>
+              </div>
+              <div class="barraLateral">
+                <div class="datosPersonales">
+                  <div class="avatar"></div>
+                  <h1 class="nombre">Amadeo Flores</h1><span class="cargo">Mis habilidades</span>
+                </div>
+                <div class="rutas">
+                  <div class="elementos"> 
+                    <div class="icono"></div>
+                    <div class="titulo">Frontend 70%</div>
+                  </div>
+                  <div class="elementos">
+                    <div class="icono"></div>
+                    <div class="titulo">Backend 30%</div>
+                  </div>
+                  <div class="elementos"> 
+                    <div class="icono"></div>
+                    <div class="titulo">Marketing 110%</div>
+                  </div>
+                  <div class="elementos">  
+                    <div class="icono"></div>
+                    <div class="titulo">Diseño 80%</div>
+                  </div>
+                </div>
+                <div class="cta">
+                  <div class="contenido"> 
+                    <div class="titulo">Estoy aprendiendo</div>
+                    <div class="subtitulo">con Henry</div>
+                  </div>
+                  <div class="img"></div>
+                </div>
+              </div>
+              <div class="content"> 
+                <div class="datos">
+                  <h5>Sobre mí</h5>
+                  <Span>Desde los 16 años estoy apasionado por el emprendimiento y la tecnología😍. Tengo experiencia como desarrollador y en marketing. Me considero un autodidacta, me encanta siempre aprender algo nuevo.</Span>
+                </div>
+                <div class="datos">
+                  <h5>Educación:</h5>
+                  <ul>
+                    <li>Secundaria completa</li>
+                    <li>Ing de sistemas por 2 años</li>
+                    <li>Marketing empresarial - Zegel Ipae</li>
+                    <li>Microdegree marketing digital</li>
+                  </ul>
+                  <h5>Como autodidacta aprendí</h5>
+                  <ul>
+                    <li>Html y css(Learn Digital- Google)</li>
+                    <li>Trading(Crehana.com)</li>
+                    <li>Ux(Crehana.com)</li>
+                    <li>Design thinking(Crehana.com)</li>
+                    <li>Fundamentos de marketing digital(Learn Digital - Google)</li>
+                    <li>Metodología scrum(Crehana.com)</li>
+                    <li>Curso de desarrollo en flutter(platzi.com)</li>
+                    <li>Curso de javascript(freeCodeCamp)</li>
+                  </ul>
+                </div>
+                <div class="datos">
+                  <h5>Experiencia laboral</h5><span>Desarrollo de 4 aplicaciones y alrededor de 8 páginas webs como tercerización para las siguientes agencias de marketing:</span>
+                  <ul>
+                    <li>Pandoramarketing.net</li>
+                    <li>Jannaazabache.com</li>
+                    <li>Mapeo.pe</li>
+                  </ul><span>Realizando las siguientes actividades:</span>
+                  <ul> 
+                    <li>Diseño web y móvil</li>
+                    <li>Ux</li>
+                    <li>Base de datos</li>
+                    <li>Desarrollo Fullstack</li>
+                    <li>Aplicación móvil y web</li>
+                    <li>Prototipado</li>
+                  </ul>
+                </div>
+                <div class="datos">
+                  <h5>Hobbies</h5>
+                  <ul>
+                    <li>Jugar videojuegos</li>
+                    <li>conocer más tecnologías</li>
+                    <li>Cantar</li>
+                    <li>Dj de vez en cuando</li>
+                    <li>Rapear😂</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
